@@ -17,6 +17,6 @@ export default function Loader({ className }) {
   return (
     <div
       className={`animate-spin rounded-full border-4 border-b-transparent ${className ?? 'size-8 border-primary-light'}`}
-    ></div>
+    />
   );
 }
